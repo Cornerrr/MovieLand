@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovieLand/static/css/main.31405e43.css",
-    "main.js": "/MovieLand/static/js/main.ca6fc3bd.js",
+    "main.js": "/MovieLand/static/js/main.ae125e96.js",
     "static/js/453.223d8a00.chunk.js": "/MovieLand/static/js/453.223d8a00.chunk.js",
     "static/media/fa-solid-900.svg": "/MovieLand/static/media/fa-solid-900.18df003f90a7f1313b98.svg",
     "static/media/fa-brands-400.svg": "/MovieLand/static/media/fa-brands-400.3c45c98f6f6c1b009c08.svg",
@@ -20,11 +20,11 @@
     "static/media/fa-regular-400.woff2": "/MovieLand/static/media/fa-regular-400.c52405129ae48097815d.woff2",
     "index.html": "/MovieLand/index.html",
     "main.31405e43.css.map": "/MovieLand/static/css/main.31405e43.css.map",
-    "main.ca6fc3bd.js.map": "/MovieLand/static/js/main.ca6fc3bd.js.map",
+    "main.ae125e96.js.map": "/MovieLand/static/js/main.ae125e96.js.map",
     "453.223d8a00.chunk.js.map": "/MovieLand/static/js/453.223d8a00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31405e43.css",
-    "static/js/main.ca6fc3bd.js"
+    "static/js/main.ae125e96.js"
   ]
 }
