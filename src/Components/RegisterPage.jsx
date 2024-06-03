@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Form, Input, Typography } from 'antd';
 import axios from 'axios';
-import {useNavigate} from "react-router-dom";
+import {useNavigate,Link} from "react-router-dom";
  
 export default function RegisterPage(){
  
@@ -71,7 +71,7 @@ export default function RegisterPage(){
                       <Button type='primary' htmlType='submit' block onClick={() => registerUser()}>Sign Up</Button>
     
                       <div className='register-link'>
-                        <p>Login to your account <a href="/login" className="link-danger">Login</a></p>
+                        <p>Login to your account <li><Link to="/login" className="link-danger">login</Link></li></p>
                       </div>
                     </Form>
                   </div>
