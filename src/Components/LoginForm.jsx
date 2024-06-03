@@ -2,7 +2,7 @@ import React , {useState, useEffect ,useContext} from 'react';
 import { Button, Divider, Form, Input, Typography, message } from 'antd';
 import { FacebookFilled, GoogleOutlined, TwitterOutlined } from '@ant-design/icons';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 
 
@@ -92,7 +92,7 @@ const LoginForm = () => {
 
                   <Button type='primary' htmlType='submit' block onClick={logInUser}>Login</Button>
                   <div className='register-link'>
-                    <p>Don't have an account? <a href="/register" className="link-danger">Register</a></p>
+                    <p>Don't have an account? <li><Link to="/register" className="link-danger">Register</Link></li></p>
                   </div>
 
                   <Divider style={{ borderColor: "black" }}>or login with</Divider>
